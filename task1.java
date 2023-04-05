@@ -1,4 +1,4 @@
-package HW2;
+
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -21,8 +21,8 @@ public class task1 {
     }
 
     public static int[] babblSort(int arr[]) throws IOException {
-        Logger loger = Logger.getLogger(task2_2.class.getName());
-        FileHandler fHandler = new FileHandler("Task2_2.txt");
+        Logger loger = Logger.getLogger(task1.class.getName());
+        FileHandler fHandler = new FileHandler("Task1.txt");
         SimpleFormatter sFormatter = new SimpleFormatter();
         fHandler.setFormatter(sFormatter);
         loger.addHandler(fHandler);
